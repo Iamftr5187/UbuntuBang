@@ -56,7 +56,7 @@ sudo apt-get install git
 mkdir ~/github
 cd ~/github
 git init
-git clone https://github.com/dymaxionkim/UbuntuBang.git
+git clone https://github.com/Iamftr5187/UbuntuBang.git
 cd UbuntuBang
 chmod +x ./UbuntuBang.sh
 sudo sh UbuntuBang.sh
