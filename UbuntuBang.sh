@@ -80,3 +80,8 @@ cp numix_wallpaper*.png ~/.config/nitrogen/
 # VirtualBox Guest Extension
 mount /dev/cdrom /mnt
 /mnt/VBoxLinuxAdditions.run
+
+#Install tlp laptop power saver optimization
+sudo apt-add-repository ppa:linrunner/tlp
+sudo apt-get update && sudo apt-get install tlp
+sudo tlp start
